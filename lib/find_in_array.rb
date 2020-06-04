@@ -3,7 +3,7 @@ def find_element_index(array, value_to_find)
   while array[count] do
     if array[count] == value_to_find
       count += 1
-    else 
+    else
       return array[count]
     end
   end
